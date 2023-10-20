@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+.box{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(21, 172, 19);
+    color: black;
+    border: 3px solid black;
+}
+
+.box-one{
+    margin-left: 600px;
+    margin-top: 80px;
+}
+
+.box-two{
+    margin-left: 600px;
+    margin-top: 400px;
+}

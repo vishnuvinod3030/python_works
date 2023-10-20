@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 80%;
+    height: 600px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.child{
+    background-color: brown;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent .child:nth-child(1){
+    background-color: darkgreen;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.parent .child:nth-child(2){
+    background-color: darkgreen;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.parent .child:nth-child(6){
+    background-color: darkgreen;
+    grid-column-start:4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.parent .child:nth-child(4){
+    background-color: yellow;
+    
+}
+.parent .child:nth-child(8){
+    background-color: yellow;
+    
+}
+
+
+/* animation,mediaquery,variables */

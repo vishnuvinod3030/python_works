@@ -1,0 +1,18 @@
+from datetime import datetime
+
+current_time=datetime.now()
+current_hour=current_time.hour
+
+print(current_hour)
+
+def greeting_bytime():
+    current_time=datetime.now()
+    current_hour=current_time.hour
+    if (5<=current_hour<12):
+        print("GOOD MORNING")
+    elif (12<=current_hour<18):
+        print("GOOD AFTERNOON")
+    else:
+        print("GOOD EVENING")
+
+greeting_bytime()

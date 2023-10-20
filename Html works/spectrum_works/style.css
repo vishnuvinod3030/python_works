@@ -1,0 +1,136 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main-head{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'delagothicone',cursive;
+    color: aliceblue;
+}
+.row{
+    width: 50%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.col{
+    width: 18%;
+    /* border: 1px solid red; */
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+.row .col:nth-child(1){
+    background-color: cadetblue;
+}
+.row .col:nth-child(2){
+    background-color: green;
+}
+.row .col:nth-child(3){
+    background-color: rgb(14, 23, 148);
+}
+.row .col:nth-child(4){
+    background-color: rgb(12, 64, 162);
+}
+.row .col:nth-child(5){
+    background-color: rgb(205, 215, 54);
+}
+.row1{
+    width: 70%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col1{
+    width: 12%;
+    /* border: 1px solid red; */
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}
+
+.row1 .col1:nth-child(1){
+    background-color: rgb(112, 139, 228);
+}
+.row1 .col1:nth-child(2){
+    background-color: rgb(9, 59, 226);
+}
+.row1 .col1:nth-child(3){
+    background-color: rgb(45, 47, 56);
+}
+.row1 .col1:nth-child(4){
+    background-color: rgb(13, 114, 130);
+}
+.row1 .col1:nth-child(5){
+    background-color: rgb(136, 21, 208);
+}
+.row1 .col1:nth-child(6){
+    background-color: rgb(241, 11, 168);
+}
+.row1 .col1:nth-child(7){
+    background-color: rgb(242, 243, 247);
+}
+
+.row2{
+    width: 90%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col2{
+    width: 10%;
+    height: 200px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 10px;
+
+}
+
+.row2 .col2:nth-child(1){
+    background-color: rgb(45, 47, 56);
+}
+.row2 .col2:nth-child(2){
+    background-color: rgb(159, 76, 123);
+}
+.row2 .col2:nth-child(3){
+    background-color: rgb(39, 66, 189);
+}
+.row2 .col2:nth-child(4){
+    background-color: rgb(28, 126, 92);
+}
+.row2 .col2:nth-child(5){
+    background-color: rgba(26, 82, 6, 0.752);
+}
+.row2 .col2:nth-child(6){
+    background-color: rgb(234, 127, 19);
+}
+.row2 .col2:nth-child(7){
+    background-color: rgb(213, 57, 18);
+}
+.row2 .col2:nth-child(8){
+    background-color: rgb(45, 47, 56);
+}
+.row2 .col2:nth-child(9){
+    background-color: rgb(246, 247, 248);
+}
+
+
+
+
+
+
